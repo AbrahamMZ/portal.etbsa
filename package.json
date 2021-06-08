@@ -10,6 +10,7 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@mdi/font": "^5.9.55",
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
@@ -18,6 +19,8 @@
         "sass": "^1.32.1",
         "sass-loader": "^10.1.1",
         "vue": "^2.6.12",
-        "vue-template-compiler": "^2.6.12"
+        "vue-loader": "15.9.5",
+        "vue-template-compiler": "^2.6.12",
+        "vuetify": "^2.5.3"
     }
 }

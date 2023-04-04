@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layout.app');
 })->middleware('theme:landing')->name('landing');
+
+Route::get('/admin', function () {
+    return view('layout.app');
+})->middleware('theme:admin')->name('admin');
